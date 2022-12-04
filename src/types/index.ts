@@ -1,17 +1,17 @@
 declare namespace NasaApi {
     export interface Datum {
-        center: string;
-        title: string;
-        keywords: string[];
-        nasa_id: string;
-        date_created: Date;
-        media_type: string;
-        description: string;
-        description_508: string;
-        secondary_creator: string;
-        location: string;
-        album: string[];
-        photographer: string;
+        center: string | undefined;
+        title: string | undefined;
+        keywords: string[] | undefined;
+        nasa_id: string | undefined;
+        date_created: Date | undefined | string;
+        media_type: string | undefined;
+        description: string | undefined;
+        description_508: string | undefined;
+        secondary_creator: string | undefined;
+        location: string | undefined;
+        album: string[] | undefined;
+        photographer: string | undefined;
     }
 
     export interface Link {
@@ -48,5 +48,6 @@ declare namespace NasaApi {
         collection: Collection;
     }
 }
+type Collection = NasaApi.Collection;
 
-export type { NasaApi };
+export type { Collection, NasaApi };
