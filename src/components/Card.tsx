@@ -1,4 +1,5 @@
 import type { FC } from "react";
+import { dateFormatter } from "../utils/helpers/dateFormatter";
 export interface CardType extends React.HTMLAttributes<HTMLDivElement> {
   center: string;
   title: string;
