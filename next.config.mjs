@@ -24,5 +24,8 @@ const config = {
     // !! WARN !!
     ignoreBuildErrors: true,
   },
+  eslint:{
+    ignoreBuildErrors:true
+  }
 };
 export default config;
