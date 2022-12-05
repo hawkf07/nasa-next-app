@@ -1,6 +1,7 @@
-import React, { ChangeEvent, EventHandler } from "react";
+import type { ChangeEvent} from "react";
+import React, { EventHandler } from "react";
 import create from "zustand";
-import { apiData } from "../utils/types";
+import type { apiData } from "../utils/types";
 
 interface useSearchStoreType {
   inputValue: string;
