@@ -18,6 +18,7 @@ specifiers:
   clsx: ^1.2.1
   eslint: ^8.26.0
   eslint-config-next: 13.0.2
+  husky: ^8.0.2
   next: 13.0.2
   postcss: ^8.4.14
   prettier: ^2.7.1
@@ -60,6 +61,7 @@ devDependencies:
   autoprefixer: 10.4.13_postcss@8.4.19
   eslint: 8.28.0
   eslint-config-next: 13.0.2_hsf322ms6xhhd4b5ne6lb74y4a
+  husky: 8.0.2
   postcss: 8.4.19
   prettier: 2.8.0
   prettier-plugin-tailwindcss: 0.1.13_prettier@2.8.0
@@ -1553,6 +1555,12 @@ packages:
   /hast-util-whitespace/2.0.0:
     resolution: {integrity: sha512-Pkw+xBHuV6xFeJprJe2BBEoDV+AvQySaz3pPDRUs5PNZEMQjpXJJueqrpcHIXxnWTcAGi/UOCgVShlkY6kLoqg==}
     dev: false
+
+  /husky/8.0.2:
+    resolution: {integrity: sha512-Tkv80jtvbnkK3mYWxPZePGFpQ/tT3HNSs/sasF9P2YfkMezDl3ON37YN6jUUI4eTg5LcyVynlb6r4eyvOmspvg==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
 
   /ignore/5.2.1:
     resolution: {integrity: sha512-d2qQLzTJ9WxQftPAuEQpSPmKqzxePjzVbpAVv62AQ64NTL+wR4JkrVqR/LqFsFEUsHDAiId52mJteHDFuDkElA==}

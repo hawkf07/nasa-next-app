@@ -1,5 +1,6 @@
 import clsx from "clsx";
-import React, { Dispatch, FC, SetStateAction, useState } from "react";
+import type { Dispatch, FC, SetStateAction} from "react";
+import React, { useState } from "react";
 
 interface Pagination {
   currentPage: number;
@@ -16,7 +17,7 @@ export const Pagination: FC<Pagination> = ({
   totalPosts,
   postsPerPage,
 }) => {
-  let pages = [];
+  const pages = [];
 
   for (let i = 1; i <= Math.ceil(totalPosts / postsPerPage); i++) {
     pages.push(i);

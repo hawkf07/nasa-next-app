@@ -1,4 +1,4 @@
-import { FC, HTMLAttributes, ReactNode } from "react";
+import type { FC, HTMLAttributes, ReactNode } from "react";
 
 export interface CardContainerType extends HTMLAttributes<HTMLDivElement> {
   children: ReactNode;
