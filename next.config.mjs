@@ -24,8 +24,8 @@ const config = {
     // !! WARN !!
     ignoreBuildErrors: true,
   },
-  eslint:{
-    ignoreBuildErrors:true
-  }
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 export default config;
